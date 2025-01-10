@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+    body{
+        background-color: #2f2f2f;
+        color: aqua;
+        font-family: Poppins, 'Product Sans', sans-serif;
+    }
+
+    header{
+        border: 1px solid white;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+main{
+    border: 1px solid white;
+    min-height: calc(100vw-80px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+button{
+    background: transparent;
+    border-color: transparent;
+    border-radius: 2rem;
+    color: aqua;
+    box-shadow: 0 4px 6px #000;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
