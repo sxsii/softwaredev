@@ -21,6 +21,16 @@ fruits.shift()
 fruits.unshift("Dandadan")
 
 
+//for
 for (let i = 0, i < 5, i++){
     console.log(i);
 }
+
+//while
+let noFruits = 1;
+while (noFruits < 5){
+    console.log(noFruits);
+    noFruits++;
+}
+
+//do while and functions next class
